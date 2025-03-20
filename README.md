@@ -20,7 +20,7 @@ A Chrome extension that uses Google's Gemini AI to generate concise summaries of
 
 ## Usage
 
-1. Get a Gemini API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+1. Get a Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey)
 2. Click the extension icon in your Chrome toolbar
 3. Enter your Gemini API key and click the save button
 4. Select your preferred language from the dropdown menu
