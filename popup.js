@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const prompt = `Please provide a concise summary of the following text in ${getLanguageName(selectedLanguage)}. The summary should be between 100-150 words and capture the main points:\n\n${pageContent}`;
 
             // Call Gemini API
-            const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`, {
+            const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
